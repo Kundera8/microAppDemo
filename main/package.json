@@ -1,5 +1,5 @@
 {
-  "name": "microapp",
+  "name": "micro-app",
   "private": true,
   "scripts": {
     "start": "umi dev",

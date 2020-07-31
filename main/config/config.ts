@@ -1,4 +1,5 @@
 import { defineConfig } from 'umi';
+import routes from '../router';
 
 export default defineConfig({
   nodeModulesTransform: {
@@ -6,7 +7,5 @@ export default defineConfig({
   },
   layout: {},
   qiankun: {},
-  routes: [
-    { path: '/', component: '@/pages/index' },
-  ],
+  routes,
 });
