@@ -1,10 +1,12 @@
 import { defineConfig } from 'umi';
+import routes from '../src/router';
 
 export default defineConfig({
   nodeModulesTransform: {
     type: 'none',
   },
-  routes: [
-    { path: '/', component: '@/pages/index' },
-  ],
+  qiankun: {
+    slave: {}
+  },
+  routes,
 });

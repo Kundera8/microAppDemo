@@ -1,4 +1,5 @@
 {
+  "name": "sub1",
   "private": true,
   "scripts": {
     "start": "umi dev",
@@ -21,6 +22,7 @@
   },
   "dependencies": {
     "@ant-design/pro-layout": "^5.0.12",
+    "@umijs/plugin-qiankun": "^2.6.0",
     "@umijs/preset-react": "1.x",
     "@umijs/test": "^3.2.13",
     "lint-staged": "^10.0.7",

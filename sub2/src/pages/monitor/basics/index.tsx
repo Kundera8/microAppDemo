@@ -6,8 +6,9 @@ import styles from './index.less';
 export default () => {
   return (
     <div>
-      <h1 className={styles.title}>HOME</h1>
+      <h1 className={styles.title}>basics</h1>
       <Button>按钮</Button>
+      <Link to="/drive">DRIVE</Link>
     </div>
   );
 }
